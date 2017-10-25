@@ -1,3 +1,5 @@
+<!-- Main page frame-->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -30,13 +32,16 @@
 				</div>
 			</section>
 
-			<section class="row">
-				<div class="col-md-2">
-					<iframe src="navigation.html" style="border:none;" width="100%;" height="200px"></iframe>
+			<section class="row flex-xl-nowrap">
+				<div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+					<div class= "menu main-color"> <a target="frame" href= "./index.html">Home</a></div>
+					<div class="menu main-color"> <a target="frame" href= "aboutme/index.html">About Me</a></div>
+					<div class="menu main-color"><a target="frame" href= "portfolio/index.html">Portfolio</a></div>
+					<div class="menu main-color"><a target="frame" href= "contact/index.html">Contact</a></div>
 				</div>
 
-				<div class="col-md-10 main-image">
-					<img class="img-responsive" src="http://via.placeholder.com/900x500" alt="picture">
+				<div class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+					<iframe name="frame" src="portfolio/index.html" style="position:absolute;" class="page-frame"></iframe>
 				</div>
 			</section>
 
