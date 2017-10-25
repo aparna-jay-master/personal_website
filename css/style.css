@@ -29,6 +29,7 @@ body {
 	font-family: 'Bellefair', serif;
 	font-size: 40px;
 	margin-top: 30px;
+	text-transform: uppercase;
 }
 
 .subtitle {
