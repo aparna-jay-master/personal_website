@@ -4,7 +4,7 @@ var projects = {
 		"githubLink": "https://github.com/aparna-jay-master/Portfolio-Travel",
 		"imageUrl": "media/travel.gif",
 		"imageAlt": "Travel website",
-		"projectDescription": "A personal travel site designed and created by me. I utilized Bootstrap to make the site responsive. The travel data is stored in a JSON array. The Google Maps API runs through the array to place the pins and create the custom info windows.",
+		"projectDescription": "A personal travel site designed and created by me. I utilized Bootstrap to make the site responsive. The travel data is stored in a JSON array. The Google Maps API runs through the array to place the pins and create the custom info windows.<br><br>Live Site: https://aparna-jay-master.github.io/Portfolio-Travel/",
 		"projectSkills": "HTML/CSS, JavaScript, jQuery, JSON, Bootstrap, Google Maps API"
 	},
 	{
